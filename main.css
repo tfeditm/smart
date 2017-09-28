@@ -76,6 +76,12 @@ header {
   border-radius: 0;
 }
 
+@media(min-width:769px) {
+  #search {
+    min-width: 20rem;
+  }
+}
+
 #search button {
   background-color: rgba(62, 62, 62, 1);
   color: rgba(205, 205, 205, 1);
